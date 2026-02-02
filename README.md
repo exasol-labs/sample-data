@@ -1,5 +1,14 @@
 # Exasol Sample Data
-This repository contains some artificially created sample data to get you started with Exasol. In addition, we also provide the AI-generated Python data generation scripts for everyone to use and adapt.
+This repository contains data generators for sample data to get quickly started with Exasol. Those AI-generate Python scripts can be used by everyone to generate their own data and adapt as needed.
+Currently the scripts generate two types of Parquet files:
+* a set of online products of an imaginary webshop
+* reviews to those products
+See [definitions](#Datatypes-and-Mappings) for a detailed description of fields and datatypes.
+
+## Sample Data on S3
+Exasol also provides two generated sample Parquet files on S3 for direct import via IMPORT command:
+* Online Products (1.000.000 rows, 28.6 MB): https://exasol-easy-data-access.s3.eu-central-1.amazonaws.com/sample-data/online_products.parquet
+* Product Reviews (1.822.007 rows, 162 MB): https://exasol-easy-data-access.s3.eu-central-1.amazonaws.com/sample-data/product_reviews.parquet
 
 ## Datatypes and Mappings
 Currently there are two sample Parquet files, see their Parquet types and Exasol mapping below:
