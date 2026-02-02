@@ -4,6 +4,7 @@ This repository contains data generators for sample data to get quickly started 
 Currently the scripts generate two types of Parquet files:
 * a set of online products of an imaginary webshop
 * reviews to those products
+  
 See [definitions](#Datatypes-and-Mappings) for a detailed description of fields and datatypes.
 
 ## Sample Data on S3
