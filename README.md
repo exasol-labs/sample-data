@@ -19,9 +19,9 @@ Online Products:
 |product_id	|INT64	|DECIMAL(18,0)|
 |product_category	|BYTE_ARRAY (STRING)|	VARCHAR(100)|
 |product_name	|BYTE_ARRAY (STRING)	|VARCHAR(2000000)|
-|price_usd	|DOUBLE	|DECIMAL(12,2)|
+|price_usd	|DOUBLE	|DOUBLE|
 |inventory_count	|INT32	|DECIMAL(10,0)|
-|margin|	DOUBLE|	DECIMAL(5,4)|
+|margin|	DOUBLE|	DOUBLE|
 
 Product Reviews:
 |Attribute	|Parquet datatype|	Exasol datatype|
@@ -36,4 +36,4 @@ Product Reviews:
 |reviewer_persona|	BYTE_ARRAY (STRING)|	VARCHAR(100)|
 |reviewer_age|	INT32	|DECIMAL(3,0)|
 |reviewer_location|	BYTE_ARRAY (STRING)|	VARCHAR(200)|
-|review_date	|BYTE_ARRAY (STRING)	|TIMESTAMP|
+|review_date	|BYTE_ARRAY (STRING)	|VARCHAR(200)|
