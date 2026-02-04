@@ -1,9 +1,13 @@
 # Exasol Sample Data
-This repository contains data generators for sample data to get quickly started with Exasol. Those AI-generated Python scripts can be used by everyone to generate their own data and adapt as needed.
+This repository contains data generators for sample data as well as links to sample Parquet files to get quickly started with Exasol. Those AI-generated Python scripts can be used by everyone to generate their own data and adapt as needed.
+
+Read the [disclaimer](DISCLAIMER.md) regarding support of this repository.
 
 Currently the scripts generate two types of Parquet files:
-* a set of online products of an imaginary webshop
-* reviews to those products
+* a set of online products of an imaginary webshop via [Generate_Products.py](generators/Generate_Products.py)
+* reviews to those products via [Generate_Reviews.py](generators/Generate_Reviews.py)
+
+See 5 lines of each files as [data excerpt](DATA_EXCERPT.md).
   
 See [definitions](#Datatypes-and-Mappings) for a detailed description of fields and datatypes.
 
